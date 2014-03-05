@@ -92,7 +92,7 @@ DERIVATIVE states {
 
 UNITSOFF
 
-PROCEDURE settables(nai, ki, v, celsius, ATPi) {
+PROCEDURE settables(nai, ki, v, celsius, ATPi, ouabain) {
 	drugblock=1/(1+ouabain/0.0006)
         k1=0.37*(1/(1+0.094/ATPi))  
 	kelvin=celsius+273.16  
