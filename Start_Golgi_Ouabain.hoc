@@ -106,6 +106,7 @@ gnoise.amp = 0
 objref r
 gauss_noise_amp = 0.032 // pA
 r = new Random()
+r.Random123()
 r.normal(0,gauss_noise_amp)
 r.play(&gnoise.amp)
 
