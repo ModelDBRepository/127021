@@ -87,6 +87,4 @@ was made to match the number of the calling instances.
 * 20220924: Update MOD files to avoid declaring variables and functions with the same name.  
   See [https://github.com/neuronsimulator/nrn/pull/1992](https://github.com/neuronsimulator/nrn/pull/1992)
 
----
-
-2025-06-02: Converted README to Markdown.
+* 20250602: Converted README to Markdown.
